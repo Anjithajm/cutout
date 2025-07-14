@@ -26,6 +26,20 @@ The following Python packages are required:
 
 Install them via:
 ```bash
-pip install numpy==2.1.3 scipy==1.15.2 astropy==7.0.1 reproject==0.14.1```
+pip install numpy==2.1.3 scipy==1.15.2 astropy==7.0.1 reproject==0.14.1
+```
 
 
+## 🌓 Usage Example
+
+The following command demonstrates how to run the cutout generation script with a sample input catalog, specifying the relevant columns for Right Ascension, Declination, and tile filenames, as well as output parameters:
+
+```bash
+python cutout.py \
+  --input-table test_catalog_input.fits \
+  --ra-col RAJ2000 \
+  --dec-col DECJ2000 \
+  --tile-col tile \
+  --band g \
+  --cutout-size 8 \
+  --output-dir test_cutouts
