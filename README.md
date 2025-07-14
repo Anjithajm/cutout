@@ -12,14 +12,10 @@ If the object located in multiple tiles the code coadds them using interpolation
 
 **Key features:**
 -cutout generation for objects located in single-tile and multi-tiles
-- Parallel processing via `mpi4py` and MPI
-- Uses `astropy`, `reproject`, and `numpy`
-- Produces a summary table of unmatched (no-overlap) cutouts
-- Flexible command-line argument parsing
 
 ---
 
-## 📈 Dependencies
+## 🛠️ Dependencies
 
 The following Python packages are required:
 
