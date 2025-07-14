@@ -11,7 +11,7 @@ This reads an input table containing target celestial coordinates (RA, Dec) alon
 If the object is located in multiple tiles, the code coadds them using interpolation-based reprojection.
 
 **Key features:**
--cutout generation for objects located in single-tile and multi-tile.
+-cutout generation for objects located in single-tile and multiple-tile.
 
 ---
 
