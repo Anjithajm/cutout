@@ -1,6 +1,6 @@
-# 🌕🌒 FITS Cutout Generator
+# 🌕🌒 Cutout Generator
 
-This repository provides a Python-based script for generating cutouts of objects in FITS format— either from single FITS tiles or via coadded mosaics from multiple overlapping tiles — at specified sky positions.
+This repository provides a Python-based script for generating cutouts of objects in FITS format— either from single tiles or via coadded mosaics from multiple overlapping tiles — at specified sky positions.
 The code is optimized for both serial and MPI-parallel execution.
 
 ---
