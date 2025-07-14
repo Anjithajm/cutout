@@ -1,4 +1,4 @@
-# 📦 FITS Cutout Generator with MPI Support
+# 🌕🌒 FITS Cutout Generator
 
 This repository provides a Python-based script for generating cutouts of objects in FITS format— either from single FITS tiles or via coadded mosaics from multiple overlapping tiles — at specified sky positions.
 The code is optimized for both serial and MPI-parallel execution.
@@ -7,11 +7,11 @@ The code is optimized for both serial and MPI-parallel execution.
 
 ## 📑 Overview
 
-This reads an input table containing target celestial coordinates (RA, Dec) along with associated FITS tile filenames, and produces small cutout images centered at those positions. 
-If the object located in multiple tiles the code coadds them using interpolation-based reprojection.
+This reads an input table containing target celestial coordinates (RA, Dec) along with associated FITS tile filenames, and produces cutout images centered at those positions. 
+If the object is located in multiple tiles, the code coadds them using interpolation-based reprojection.
 
 **Key features:**
--cutout generation for objects located in single-tile and multi-tiles
+-cutout generation for objects located in single-tile and multi-tile.
 
 ---
 
