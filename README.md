@@ -29,7 +29,7 @@ The following Python packages are required:
 - `reproject==0.14.1`
 
 Install them via:
-`bash
-pip install numpy==2.1.3 scipy==1.15.2 astropy==7.0.1 reproject==0.14.1`
+```bash
+pip install numpy==2.1.3 scipy==1.15.2 astropy==7.0.1 reproject==0.14.1```
 
 
