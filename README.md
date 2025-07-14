@@ -66,7 +66,7 @@ mpirun -n 8 python fits_cutout_generator.py \
   Specifies the column name containing Declination (DEC) in degrees, here `DECJ2000`.
 
 - `--tile-col tile`  
-  Defines the column containing the tile filenames. These filenames may be a comma-separated list if multiple tiles cover the target.
+  Defines the column containing the tile filenames. The column format is String. These filenames may be a comma-separated list if multiple tiles cover the target. For example, see the `data.fits` file
 
 - `--band g`  
   Sets the photometric band label used to tag output files and directories (e.g., 'g' band).
