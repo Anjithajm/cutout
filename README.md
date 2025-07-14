@@ -36,21 +36,21 @@ The following command demonstrates how to run the cutout generation script with 
 
 ```bash
 python cutout.py \
-  --input-table test_catalog_input.fits \
+  --input-table data.fits \
   --ra-col RAJ2000 \
   --dec-col DECJ2000 \
   --tile-col tile \
   --band g \
   --cutout-size 8 \
-  --output-dir test_cutouts
+  --output-dir cutouts
 ```
 To run the script using MPI with 8 parallel processes, use the following command:
  ```bash
-mpirun -n 8 python fits_cutout_generator.py \
-  --input-table sources.fits \
+mpirun -n 8 python cutout.py \
+  --input-table data.fits \
   --ra-col RAJ2000 \
   --dec-col DECJ2000 \
-  --tile-col tiles \
+  --tile-col tile \
   --cutout-size 8 \
   --band r \
   --output-dir ./cutouts \
